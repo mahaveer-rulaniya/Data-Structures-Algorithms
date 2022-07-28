@@ -5,9 +5,7 @@ public:
     int done[100100];
     
     int rec(int level , vector<int> &nums){
-        //pruning
-        
-        
+
         //base case
         if(level==0) return nums[level];
         
